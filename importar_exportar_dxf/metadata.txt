@@ -1,0 +1,17 @@
+[general]
+name=Importar/Exportar DXF
+qgisMinimumVersion=3.0
+description=Importa entidades de DXF (Pontos/Vértices/Blocos/Centro de Círculos, Textos, Linhas, Polígonos) e exporta polígonos selecionados para um DXF fixo
+version=2.1
+author=Edu Gabriel
+email=edugcs9999@gmail.com
+
+about=Junta os plugins "Importador CAD" e "Exportador DXF" numa barra de ferramentas própria (Importar/Exportar DXF) com dois botões. Importar: abre uma janela para escolher o tipo de entidade e o arquivo DXF (padrão Área de Trabalho\dxf\DXF.dxf), criando camadas separadas por Layer do CAD; instala o ezdxf automaticamente se necessário. Exportar: grava os polígonos selecionados da camada ativa em Área de Trabalho\dxf\Exportado(DXF).dxf como polilinhas fechadas, sobrescrevendo o arquivo anterior.
+
+tracker=
+repository=
+tags=dxf,dwg,cad,import,export
+category=Vector
+icon=icon.png
+experimental=False
+deprecated=False

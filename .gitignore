@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Pacotes de distribuição do plugin (gerados a partir da pasta importar_exportar_dxf/)
+*.zip
+
+# Editores / SO
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
